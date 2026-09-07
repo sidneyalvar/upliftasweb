@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Self-hosted Inter (via @fontsource) — no network call needed at build time,
+   unlike next/font/google which fetches from fonts.googleapis.com during
+   `next build` and fails hard on restricted/offline networks. */
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/inter/800.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  @apply text-ink antialiased bg-surface;
+}
+
+::selection {
+  @apply bg-primary text-white;
+}
+
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid #2954E5;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.container-xl {
+  @apply max-w-container mx-auto px-5 md:px-8;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold transition-all duration-300;
+}
+
+.btn-primary {
+  @apply btn bg-primary text-white hover:bg-primary-dark shadow-soft hover:shadow-cardHover hover:-translate-y-0.5;
+}
+
+.btn-outline {
+  @apply btn border border-ink/15 text-ink bg-transparent hover:border-primary hover:text-primary;
+}
+
+.btn-white {
+  @apply btn bg-white text-ink hover:bg-secondary shadow-soft hover:-translate-y-0.5;
+}
+
+.section {
+  @apply py-20 md:py-28;
+}
+
+.heading-xl {
+  @apply text-5xl md:text-7xl font-bold leading-[1.02] tracking-tight;
+}
+
+.heading-lg {
+  @apply text-3xl md:text-5xl font-bold leading-[1.08] tracking-tight;
+}
+
+.heading-md {
+  @apply text-2xl md:text-3xl font-bold leading-tight tracking-tight;
+}
+
+.eyebrow {
+  @apply text-xs font-semibold uppercase tracking-[0.16em] text-primary;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-xl border border-white/60;
+}
+
+/* Slow, subtle drift for decorative background glows — never used for
+   anything conveying information, so it's safe to leave running, and the
+   prefers-reduced-motion rule above already neutralizes it for anyone who's
+   asked for less motion. */
+@keyframes ambient-drift-a {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(3%, -4%) scale(1.08); }
+}
+@keyframes ambient-drift-b {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-4%, 3%) scale(1.05); }
+}
