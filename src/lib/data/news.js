@@ -1,7 +1,7 @@
 export const news = [
   {
     slug: "aeris-lift-v3-launch",
-    date: "2026-08-14",
+    date: "2018-08-14",
     title: "Introducing the Next Generation of Aeris Lift",
     excerpt:
       "Our newest lifting chair arrives with a 15% lighter frame, longer battery life, and a redesigned control handle based on two years of caregiver feedback.",
@@ -15,7 +15,7 @@ export const news = [
   },
   {
     slug: "accessibility-standards-update",
-    date: "2026-07-09",
+    date: "2019-07-09",
     title: "What Updated Accessibility Building Codes Mean for Retrofits",
     excerpt:
       "A summary of recent changes to accessibility requirements for existing commercial buildings, and how solutions like DuoStep fit within tighter renovation budgets.",
@@ -29,7 +29,7 @@ export const news = [
   },
   {
     slug: "caregiver-training-program",
-    date: "2026-06-18",
+    date: "2022-06-18",
     title: "Expanding Our Free Caregiver Training Program",
     excerpt:
       "We're expanding on-site training sessions for care homes and home-care agencies to help reduce manual handling injuries among staff.",
@@ -43,7 +43,7 @@ export const news = [
   },
   {
     slug: "stairlift-hdn-v2-clinical-results",
-    date: "2026-05-01",
+    date: "2024-05-01",
     title: "New Clinical Data on Stair Training and Discharge Readiness",
     excerpt:
       "A two-quarter review across partner rehabilitation clinics found structured stair training reduced time-to-discharge milestones for post-surgical patients.",
@@ -57,7 +57,7 @@ export const news = [
   },
   {
     slug: "emergency-services-partnership",
-    date: "2026-03-11",
+    date: "2025-03-11",
     title: "Partnering with Regional Fire Departments on Lift-Assist Response",
     excerpt:
       "We're working with several regional fire departments to study how portable lifting equipment affects response times for non-emergency lift-assist calls.",

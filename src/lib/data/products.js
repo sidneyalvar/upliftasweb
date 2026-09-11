@@ -66,7 +66,7 @@ export const products = [
     ],
     specs: [
       { label: "Model", value: "Upliftas DuoStep V2 (16-4727)" },
-      { label: "Max load", value: "400 kg / 660 lbs" },
+      { label: "Max load", value: "400 kg / 880 lbs" },
       { label: "Operation", value: "Push-button, key-locked" },
       { label: "Installation", value: "Custom-fit per site" },
       { label: "Power", value: "Standard mains, battery backup available" },
@@ -77,7 +77,7 @@ export const products = [
         modelImage: "/assets/images/products/duostep-bim-2-steps-square.WebP",
         specs: [
           { label: "Max rise", value: "0.35 m" },
-          { label: "Max load", value: "400 kg / 660 lbs" },
+          { label: "Max load", value: "400 kg / 880 lbs" },
           { label: "Footprint", value: "120 x 90 cm" },
           { label: "Cycle time", value: "~8 seconds" },
           { label: "Lifting height 1 stop", value: "240-370 mm" },
@@ -108,7 +108,7 @@ export const products = [
         modelImage: "/assets/images/products/duostep-bim-3-steps-round.WebP",
         specs: [
           { label: "Max rise", value: "0.55 m" },
-          { label: "Max load", value: "400 kg / 660 lbs" },
+          { label: "Max load", value: "400 kg / 880 lbs" },
           { label: "Footprint", value: "140 x 90 cm" },
           { label: "Cycle time", value: "~10 seconds" },
            { label: "Lifting height 1 stop", value: "240-370 mm" },
@@ -142,7 +142,7 @@ export const products = [
         modelImage: "/assets/images/products/duostep-bim-4-steps-square.WebP",
         specs: [
           { label: "Max rise", value: "0.75 m" },
-          { label: "Max load", value: "400 kg / 660 lbs" },
+          { label: "Max load", value: "400 kg / 880 lbs" },
           { label: "Footprint", value: "160 x 100 cm" },
           { label: "Cycle time", value: "~13 seconds" },
            { label: "Lifting height 1 stop", value: "480-740 mm" },
@@ -178,7 +178,7 @@ export const products = [
         modelImage: "/assets/images/products/duostep-bim-5-steps-square.WebP",
         specs: [
           { label: "Max rise", value: "0.95 m" },
-          { label: "Max load", value: "400 kg / 660 lbs" },
+          { label: "Max load", value: "400 kg / 880 lbs" },
           { label: "Footprint", value: "180 x 100 cm" },
           { label: "Cycle time", value: "~16 seconds" },
            { label: "Lifting height 1 stop", value: "600-925 mm" },
